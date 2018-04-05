@@ -6,6 +6,9 @@ Comados de sistema
 	rm elimina archivos
 	ls enlista archivos y carpetas
 	ls -a  enlista todos los archivos y carpetas
+Terminologia
+        Repositorio--> carpeta contenedora de los archivos completos de un proyecto
+
 Comandos de git
 git config --global user.name nombre
 git config --global user.email email
@@ -17,3 +20,6 @@ git commit -m"Descripcion del commit, entre mas clara mejor"
 
 git status  permite saber el estatus del repositorio
 git log	    Permite ver el historial de commits
+git clone   Copiar un repositorio de otra ubicacion 
+git remote  Crear un repositorio espejo que mantendra un vinculo local de un repositorio
+git remote add <origin> Crear el vinculo a otro repositorio
